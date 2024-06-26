@@ -1,0 +1,62 @@
+.container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 95vw;
+    border-radius: 5px;
+    border: none;
+    height: 30vh;
+    background-color: rgb(65, 65, 114);
+    padding: 10px;
+    z-index: 0;
+}
+
+.logo{
+    width: 100%;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   flex: 0.9;
+}
+
+.logo p{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: cursive;
+    color: white;
+}
+
+.logo span{
+    color: #fff;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.4px;
+}
+
+.social{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.social a{
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1.6px;
+}
+
+@media screen and (max-width : 640px){
+    .social{
+        margin-top: 20px;
+    }
+
+    .logo p{
+        font-size: 20px;
+    }
+
+    .social{
+        flex-direction: column;
+    }
+}
+

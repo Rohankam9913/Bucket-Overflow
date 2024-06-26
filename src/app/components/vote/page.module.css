@@ -1,0 +1,18 @@
+.vote{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+.vote_btn{
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    background-color: transparent;
+    padding: 10px;
+}
+
+.vote_btn:hover{
+    background-color: lightyellow;
+    cursor: pointer;
+}

@@ -1,0 +1,84 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.container h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.input{
+    padding: 12px;
+    font-size: 20px;
+    border-radius: 10px;
+    outline: none;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    letter-spacing: 1.1px;
+}
+
+.label{
+    font-size: 18px;
+    font-weight: bold;
+    color: #444;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.line{
+    border: 0.4px dotted silver;
+    margin: 20px 0px;
+}
+
+.button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 19px;
+    cursor: pointer;
+    background-color: rgb(12, 33, 54);
+    color: white;
+    margin-bottom: 20px;
+    width: fit-content;
+}
+
+.list{
+    padding: 12px;
+    background-color: lightsteelblue;
+    border-radius: 8px;
+    border: none;
+    margin: 15px 0px;
+    list-style: none;
+    font-weight: 800;
+}
+
+.tagContainer{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.list_item{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: honeydew;
+    font-size: 19px;
+    font-weight: 600;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.autoscrollable-wrapper {
+    overflow: auto;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+}

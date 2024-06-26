@@ -1,0 +1,130 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 14px;
+    padding: 15px;
+    height: 95vh;
+}
+
+.info_container{
+    display: flex;
+    gap: 30px;
+    padding: 10px;
+}
+
+.left{
+    border-radius: 5px;
+    padding: 25px 10px;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 30%;
+}
+
+.right input{
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    width: 100%;
+    font-size: 20px;
+    font-weight: "bold";
+    border: none;
+    font-weight: bold;
+}
+
+.right button{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: dodgerblue;
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.stats{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.stats h1{
+    font-size: 25px;
+    margin-bottom: 10px;
+    letter-spacing: 1.2px;
+}
+
+.stats p{
+    font-size: 19px;
+    color: grey;
+    font-family: sans-serif;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.skills h1{
+    font-size: 25px;
+    letter-spacing: 1.2px;
+}
+
+.skills h4{
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    color: #555;
+}
+
+.skills p{
+    background-color: seagreen;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    padding: 10px;
+    color: white;
+    width: fit-content;
+}
+
+.skills hr{
+    width: 50%;
+}
+
+.skill{
+    display: flex;
+    gap: 15px;
+}
+
+@media screen and (max-width: 1240px){
+    .right{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .right{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 540px){
+    .info_container{
+        flex-direction: column;
+    }
+
+    .left{
+        text-align: center;
+    }
+
+    .right{
+        width: 100%;
+    }
+}

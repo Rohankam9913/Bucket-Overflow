@@ -1,0 +1,82 @@
+:root {
+    --bg: white;
+    --textColor: #222;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    color: var(--textColor);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.wrapper {
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.error {
+    font-weight: bold;
+    color: red;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.loading {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin: auto;
+}
+
+
+@media screen and (max-width : 1536px) {
+    .wrapper {
+        /* max-width: 1366px; */
+        max-width: 1500px;
+    }
+}
+
+@media screen and (max-width : 1280px) {
+    .wrapper {
+        /* max-width: 1024px; */
+        max-width: 1240px;
+    }
+}
+
+@media screen and (max-width : 1024px) {
+    .wrapper {
+        /* max-width: 768px; */
+        max-width: 1000px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .wrapper {
+        /* max-width: 640px; */
+        max-width: 700px;
+        padding-left: 10px;
+    }
+}
+
+
+@media screen and (max-width : 640px) {
+    .wrapper {
+        max-width: 600px;
+        padding-left: 10px;
+    }
+}

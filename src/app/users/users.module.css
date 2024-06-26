@@ -1,0 +1,87 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 95vh;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.heading{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1.2px;
+}
+
+.search{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    gap: 10px;
+}
+
+.search input{
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    width: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.user_container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 15px;
+    width: 100%;
+    min-height: 120px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid lightgrey;
+    width: 30%;
+}
+
+.group p.reputation{
+    color: grey;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.group{
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+
+.skills{
+    margin-top: 14px;
+    display: flex;
+    gap: 12px;
+}
+
+.skills span{
+    background-color: rgb(226, 238, 226);
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.filter{
+    padding: 10px;
+    width: 20%;
+    border-radius: 5px;
+    outline: none;
+    font-size: 17px;
+}
+

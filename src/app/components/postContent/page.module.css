@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 30vh;
+    margin-top: 10px;
+    margin-bottom: 17px;
+}
+
+.textEditor{
+    font-size: 19px;
+    padding: 10px;
+    font-weight: 400;
+    color: #222;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+    outline: none;
+    border-radius: 10px;
+    border: 0.5px dotted gray;
+    min-height: 30vh;
+    overflow-y: scroll;
+}
+
+.btn{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
