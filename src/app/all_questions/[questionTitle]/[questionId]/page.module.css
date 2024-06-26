@@ -110,7 +110,7 @@
     outline: none;
     border-radius: 10px;
     height: 20vh;
-    width: 60vh;
+    width: 60vw;
 }
 
 .info{
@@ -184,4 +184,50 @@
 
 .load_more:hover{
     color: red;
+}
+
+@media screen and (max-width: 1024px) {
+    .heading h2{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .heading h2{
+        font-size: 15px;
+    }
+    .date p{
+        font-size: 15px;
+    }
+    .button{
+        font-size: 16px;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .info{
+        margin-top: 10px;
+    }
+    .info p{
+        font-size: 15px;
+    }
+    .description{
+        font-size: 15px;
+    }
+    .heading{
+        flex-direction: column-reverse;
+        gap: 10px;
+        align-items: flex-start;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .single_comment p{ 
+        font-size: 14px;
+    }
+    .post_comment{
+       width: fit-content;
+    }
 }

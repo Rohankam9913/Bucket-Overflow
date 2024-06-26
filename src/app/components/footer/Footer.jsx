@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 import style from "./footer.module.css";
 import Link from "next/link";
 
@@ -11,10 +11,10 @@ const Footer = () => {
             </div>
 
             <div className={style.social}>
-                <Link href={"#"}>Facebook</Link>
-                <Link href={"#"}>Twitter</Link>
-                <Link href={"#"}>Instragram</Link>
-                <Link href={"#"}>Linkedin</Link>
+                <Link href={"#"}><FaFacebook size={40}/></Link>
+                <Link href={"#"}><FaTwitter size={40}/></Link>
+                <Link href={"#"}><FaInstagram size={40}/></Link>
+                <Link href={"#"}><FaLinkedin size={40}/></Link>
             </div>
         </div>
     )

@@ -16,3 +16,9 @@
     background-color: lightyellow;
     cursor: pointer;
 }
+
+@media screen and (max-width: 400px){
+    .vote button{
+        font-size: 10px;
+    }
+}

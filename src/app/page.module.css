@@ -217,6 +217,8 @@
 @media screen and (max-width : 640px){
     .container{
         height: fit-content;
+        width: inherit;
+        margin-left: 10px;
     }
 
     .testimonial{
@@ -238,6 +240,13 @@
 
     .description{
         font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .container{
+        width: inherit;
+        margin-left: 10px;
     }
 }
 

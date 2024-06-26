@@ -9,6 +9,7 @@
     background-color: rgb(65, 65, 114);
     padding: 10px;
     z-index: 0;
+    margin-bottom: 20px;
 }
 
 .logo{
@@ -38,6 +39,7 @@
     gap: 10px;
     align-items: center;
     justify-content: center;
+    gap: 15px;
 }
 
 .social a{
@@ -54,9 +56,10 @@
     .logo p{
         font-size: 20px;
     }
-
-    .social{
-        flex-direction: column;
-    }
 }
 
+@media screen and (max-width: 530px){
+    .social{
+        align-items: flex-start;
+    }
+}

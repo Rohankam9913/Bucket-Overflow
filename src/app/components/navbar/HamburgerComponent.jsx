@@ -3,12 +3,12 @@
 import { useState, useContext } from "react";
 import style from "./navbar.module.css";
 import Link from "next/link";
-import { FaHome,FaQuestion,FaTags,FaUsers,FaMoon } from "react-icons/fa";
+import { FaHome,FaQuestion,FaTags,FaUsers } from "react-icons/fa";
 import { RiAccountCircleLine } from "react-icons/ri";
 import { AuthContext } from "@/app/context/authContext/AuthContext";
 
 const Hamburger = () => {
-    const [open, setOpen] = useState(false);
+    const [open, setOpen] = useState(false)
     const { auth } = useContext(AuthContext);
 
     return (
@@ -28,8 +28,7 @@ const Hamburger = () => {
 
                         <Link href={"/users"}><FaUsers size={28}/>Users</Link>
                         {auth[0] ? <Link href={`/profile/${auth[0].id}`}><RiAccountCircleLine size={28}/>Profile</Link> : ""}
-                        <Link href={"#"}><FaMoon size={28} />Dark Theme</Link>
-                    </div> 
+                    </div>                 
                 }
         </div>
     )

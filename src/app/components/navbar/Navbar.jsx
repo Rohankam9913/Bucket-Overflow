@@ -13,11 +13,6 @@ const NavBar = () => {
                 <div className={style.logo}>
                     <Link href={"/"}>BucketOverflow</Link>
                 </div>
-
-                <div className={style.link}>
-                    <Link href={"/about"}>About</Link>
-                    <Link href={"/product"}>Product</Link>
-                </div>
             </div>
 
             <Auth />
