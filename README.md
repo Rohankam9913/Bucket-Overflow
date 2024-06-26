@@ -5,6 +5,14 @@ Technologies User
 2) Mongo db
 3) Mongoose
 
+Features Includes
+1) Posting questions
+2) Posting Answers
+3) Posting Comments
+4) Adding Tags
+5) Authentication , Authorization and profile management
+6) Searching and filtering tags, users
+
 ```bash
 npm run dev
 # or
